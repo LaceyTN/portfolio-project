@@ -1,5 +1,5 @@
 :root {
-  --branding-color: rgb(25, 61, 116);
+  --branding-color: #eeeeee;
   --heading-font-family: "Playfair Display", serif;
   --body-font-family: "Poppins", sans-serif;
   --secondary-color: rgb(37, 36, 36);
@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #eeeeee;
   font-size: 85px;
   font-family: var(--heading-font-family);
 }
@@ -46,7 +46,7 @@ p {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
-  color: white;
+
   font-size: 16px;
   line-height: 27px;
   padding: 15px 30px;

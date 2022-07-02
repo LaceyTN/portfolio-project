@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #eeeeee;
+  --branding-color: rgb(238, 238, 238);
   --heading-font-family: "Josefin Slab", serif;
   --body-font-family: "Poppins", sans-serif;
   --secondary-color: rgb(37, 36, 36);
@@ -12,6 +12,11 @@ h2 h3 h4 h5 h6 {
 }
 body {
   font-family: var(--body-font-family);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 238, 238) 42%,
+    rgb(158, 188, 214) 96%
+  );
 }
 
 h1 {
@@ -118,6 +123,7 @@ p {
 
 .img-fluid {
   opacity: 0.6;
+  border-radius: 10px;
 }
 .img-fluid:hover {
   opacity: 1;

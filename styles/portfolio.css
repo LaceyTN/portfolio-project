@@ -12,8 +12,9 @@ h2 h3 h4 h5 h6 {
 }
 body {
   font-family: var(--body-font-family);
+
   background: linear-gradient(
-    90deg,
+    104deg,
     rgb(238, 238, 238) 42%,
     rgb(158, 188, 214) 96%
   );
@@ -122,11 +123,11 @@ p {
 }
 
 .img-fluid {
-  opacity: 0.6;
+  opacity: 1;
   border-radius: 10px;
 }
 .img-fluid:hover {
-  opacity: 1;
+  opacity: 0.6;
   transition-duration: 0.5s;
 }
 

@@ -1,6 +1,6 @@
 :root {
   --branding-color: #eeeeee;
-  --heading-font-family: "Playfair Display", serif;
+  --heading-font-family: "Josefin Slab", serif;
   --body-font-family: "Poppins", sans-serif;
   --secondary-color: rgb(37, 36, 36);
   --accent-color: rgb(158, 188, 214);
@@ -77,7 +77,7 @@ p {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 45px;
+    font-size: 55px;
     line-height: 1.25;
   }
 

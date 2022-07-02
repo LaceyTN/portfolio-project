@@ -63,12 +63,20 @@ p {
   padding: 15px 30px;
 }
 
+.btn-branding:hover {
+  background-color: var(--accent-color);
+}
+
 .btn-branding-outline {
   background: var(--accent-color);
   border-radius: 4px;
   font-size: 16px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
 }
 
 .project-description {
@@ -106,4 +114,16 @@ p {
   .mb-3 {
     font-size: 19px;
   }
+}
+
+.img-fluid {
+  opacity: 0.6;
+}
+.img-fluid:hover {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+.text-center {
+  font-size: 30px;
 }

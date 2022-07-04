@@ -33,8 +33,7 @@ p {
 }
 
 .hero {
-  background-image: url("../src/flower.png.jpg");
-
+  background: var(--secondary-color);
   color: rgb(158, 188, 214);
   text-align: center;
   padding: 50px 10px;
@@ -51,6 +50,26 @@ p {
   font-weight: normal;
   font: 24px;
   line-height: 1.5;
+}
+
+.about-hero {
+  background: var(--secondary-color);
+  color: rgb(158, 188, 214);
+  padding: 100px 50px;
+}
+
+.about-hero h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-hero h2 {
+  font-size: 18px;
+  font-family: var(--heading-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
 }
 
 .mb-3 {
@@ -109,6 +128,15 @@ p {
     margin: 0;
   }
 
+  .about-hero {
+    margin: 0;
+  }
+
+  .about-section-content {
+    text-align: center;
+    padding: 0;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
@@ -124,6 +152,7 @@ p {
   border-radius: 10px;
   filter: grayscale(100%);
 }
+
 .img-fluid:hover {
   transition-duration: 0.5s;
   filter: none;

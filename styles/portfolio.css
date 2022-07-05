@@ -151,6 +151,8 @@ p {
   opacity: 1;
   border-radius: 10px;
   filter: grayscale(100%);
+  margin: 35px 10px;
+  display: block;
 }
 
 .img-fluid:hover {

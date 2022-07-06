@@ -31,6 +31,33 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 17px;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--accent-color);
+}
 
 .hero {
   background: var(--secondary-color);
@@ -99,6 +126,7 @@ p {
 .btn-branding:hover {
   background-color: var(--extra-color);
   cursor: pointer;
+  transition: all 100ms ease-in-out;
 }
 
 .btn-branding-outline {
@@ -111,6 +139,7 @@ p {
 
 .btn-branding-outline:hover {
   background: var(--branding-color);
+  transition: all 100ms ease-in-out;
 }
 
 .project-description {
@@ -154,6 +183,10 @@ p {
     text-align: center;
   }
 
+  nav a {
+    text-align: center;
+  }
+
   .mb-3 {
     font-size: 19px;
   }
@@ -168,8 +201,8 @@ p {
 }
 
 .img-fluid:hover {
-  transition-duration: 0.5s;
   filter: none;
+  transition: all 100ms ease-in-out;
 }
 
 .text-center {

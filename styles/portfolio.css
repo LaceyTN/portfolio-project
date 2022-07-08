@@ -10,6 +10,7 @@
 h2 h3 h4 h5 h6 {
   font-family: var(--body-font-family);
   font-weight: bold;
+  
 }
 body {
   font-family: var(--body-font-family);
@@ -19,14 +20,16 @@ h1 {
   color: #eeeeee;
   font-size: 85px;
   font-family: var(--heading-font-family);
-  
+  font-weight: bolder;
   line-height: 1.5;
   -webkit-text-stroke: 2.5px black;
+ 
 }
 
 h2 {
   font-size: 44px;
   -webkit-text-stroke: 0.6px var(--extra-color);
+  font-weight: bolder;
 }
 
 h4 {
@@ -37,6 +40,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  
 }
 nav ul {
   padding: 0;
@@ -66,6 +70,8 @@ nav li.active a {
   color: var(--accent-color);
 }
 
+
+
 a:hover {
   color: var(--extra-color);
 }
@@ -75,20 +81,23 @@ a:hover {
   color: rgb(158, 188, 214);
   text-align: center;
   padding: 50px 10px;
+  
 }
 
 .hero p {
   font-size: 30px;
-  font-weight: thin;
+  font-weight: bolder;
   margin: 0;
+  -webkit-text-stroke: 1.5px black;
+  
 }
 
 .hero h2 {
   font-family: "Poppins", sans-serif;
-  font-weight: normal;
+  font-weight: bolder;
   font: 24px;
   line-height: 1.5;
-  -webkit-text-stroke: var(--branding-color);
+  -webkit-text-stroke: 1.5px black;
 }
 
 .content-container {
@@ -103,7 +112,8 @@ a:hover {
 }
 
 .content h2 {
-  font-size: 20px;
+  font-size: 23px;
+  font-weight: bold;
   font-family: var(--heading-font-family);
 }
 
@@ -247,7 +257,7 @@ footer .social-links a:hover {
   }
 
   .content h1 {
-    font-size: 40px;
+    font-size: 55px;
     line-height: 50px;
   }
 
@@ -258,6 +268,11 @@ footer .social-links a:hover {
 
   nav a {
     text-align: center;
+  }
+
+    nav ul {
+    display: block;
+    margin: 0 auto;
   }
 
   .mb-3 {

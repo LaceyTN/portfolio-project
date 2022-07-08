@@ -4,7 +4,7 @@
   --body-font-family: "Poppins", sans-serif;
   --secondary-color: rgb(37, 36, 36);
   --accent-color: rgb(158, 188, 214);
-  --extra-color: hsl(0, 100%, 67%);
+  --extra-color: hsl(343, 70%, 66%);
 }
 
 h2 h3 h4 h5 h6 {
@@ -146,7 +146,7 @@ a:hover {
 }
 
 .btn-branding-outline:hover {
-  background: var(--branding-color);
+  background: var(--extra-color);
   transition: all 100ms ease-in-out;
 }
 

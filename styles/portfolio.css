@@ -99,8 +99,12 @@ a:hover {
 }
 
 .content h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-family: var(--heading-font-family);
+}
+
+.fa-laptop-code {
+  color: var(--extra-color);
 }
 
 .content h1 {
@@ -115,8 +119,9 @@ a:hover {
 }
 
 .content p {
-  font-size: 15px;
+  font-size: 19px;
   color: #eeeeee;
+  line-height: 2;
 }
 
 .mb-3 {

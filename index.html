@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lacey is a front-end developer based in the United States."
+    />
     <title>Lacey Chaney | Front-end Developer</title>
 
     <link
@@ -38,26 +42,26 @@
   <body>
     <div class="containter">
       <nav class="container d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage`">
           <img
             src="src/logo-small3.png"
             class="logo d-none d-md-block"
-            alt=""
+            alt="Lacey Codes Logo"
           />
         </a>
         <ul>
-          <li>
-            <a href="/"> Home</a>
+          <li class="active">
+            <a href="/" title="Homepage"> Home</a>
           </li>
 
           <li>
-            <a href="/about.html"> About</a>
+            <a href="/about.html" title="About Lacey"> About</a>
           </li>
           <li>
-            <a href="/work.html"> Work</a>
+            <a href="/work.html" title="Lacey's work"> Work</a>
           </li>
           <li>
-            <a href="/contact.html"> Contact</a>
+            <a href="/contact.html" title="Contact Lacey"> Contact</a>
           </li>
         </ul>
       </nav>
@@ -68,18 +72,25 @@
       <h1>Lacey Chaney</h1>
 
       <h2 class="mb-3">Front-end Developer based in the United States</h2>
-      <i class="fa-solid fa-laptop-code fa-3x fa-fade mb-4"></i>
+      <i class="fa-solid fa-laptop-code fa-5x fa-fade mb-4"></i>
 
       <div>
         <a href="/contact.html" class="btn btn-branding">Contact Me</a>
       </div>
     </div>
-    <p class="text-center m-5">Check out my projects below</p>
+    <h3 class="hero-h3 text-center m-5">
+      Check out my projects below
+      <i class="fa-solid fa-hand-point-down fa-bounce"></i>
+    </h3>
 
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="src/closing-the-gap.png" class="img-fluid" alt="" />
+          <img
+            src="src/closing-the-gap.png"
+            class="img-fluid"
+            alt="Educational Games preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -119,13 +130,21 @@
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="src/weather-app.png" class="img-fluid" alt="" />
+          <img
+            src="src/weather-app.png"
+            class="img-fluid"
+            alt="Weather App preview"
+          />
         </div>
       </div>
 
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="src/dictionary-app.png" class="img-fluid" alt="" />
+          <img
+            src="src/dictionary-app.png"
+            class="img-fluid"
+            alt="Dictionary App preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -151,22 +170,46 @@
         </div>
 
         <div class="d-flex justify-content-center">
-          <a href="mailto:lacey.codes@gmail.com" class="email-link mb-4"
+          <a
+            href="mailto:lacey.codes@gmail.com"
+            class="email-link mb-4"
+            title="Email Lacey"
             >lacey.codes@gmail.com
           </a>
         </div>
 
         <div class="social-links d-flex justify-content-center">
-          <a href="https://instagram.com/lacey.codes" target="_blank">
+          <a
+            href="https://instagram.com/lacey.codes"
+            target="_blank"
+            title="Instagram Profile"
+          >
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="https://www.github.com/laceyTN" target="_blank">
+          <a
+            href="https://www.github.com/laceyTN"
+            target="_blank"
+            title="GitHub Profile"
+          >
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/lacey-chaney">
+          <a
+            href="https://www.linkedin.com/in/lacey-chaney"
+            title="LinkedIn Profile"
+          >
             <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
+        <p class="open-source text-center mt-4">
+          This project was coded by Lacey Chaney and is
+          <a
+            class="github-link"
+            href="https://github.com/LaceyTN/portfolio-project"
+            target="_blank"
+          >
+            open-sourced on GitHub.</a
+          >
+        </p>
       </footer>
     </div>
   </body>

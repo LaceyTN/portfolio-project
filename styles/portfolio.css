@@ -320,3 +320,15 @@ footer .social-links a:hover {
 .open-source {
   font-size: 19px;
 }
+@media (max-width: 768px) {
+  .head-shot {
+    margin: 88px 45px;
+    border-radius: 168px;
+  }
+}
+@media (max-width: 576px) {
+  .head-shot {
+    margin: 88px 0px;
+    border-radius: 168px;
+  }
+}

@@ -1,6 +1,6 @@
 :root {
   --branding-color: rgb(238, 238, 238);
-  --heading-font-family: "Dancing Script", cursive;
+  --heading-font-family: "Montserrat", sans-serif;
   --body-font-family: "Poppins", sans-serif;
   --secondary-color: rgb(37, 36, 36);
   --accent-color: rgb(158, 188, 214);
@@ -279,7 +279,6 @@ footer .social-links a:hover {
     font-size: 28px;
     font-weight: 700;
     font-family: var(--body-font-family);
-    -webkit-text-stroke: 0.5px black;
   }
 
   .project-description {

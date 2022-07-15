@@ -168,10 +168,9 @@ a:hover {
 }
 
 .skills {
-  border-radius: 20px;
+  border-radius: 8px;
   border: 0.5px solid rgb(41, 41, 41);
   margin: 35px 10px;
-
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -306,14 +305,14 @@ footer .social-links a:hover {
 
   .skills {
     margin: 30px 0px;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 60%;
   }
 }
 
 .img-fluid {
   opacity: 1;
-  border-radius: 20px;
+  border-radius: 8px;
   border: 0.5px solid rgb(56, 56, 56);
   filter: grayscale(100%);
   margin: 35px 10px;
@@ -334,12 +333,14 @@ footer .social-links a:hover {
 .open-source {
   font-size: 19px;
 }
+
 @media (max-width: 768px) {
   .head-shot {
     margin: 88px 45px;
     border-radius: 168px;
   }
 }
+
 @media (max-width: 576px) {
   .head-shot {
     margin: 88px 0px;
